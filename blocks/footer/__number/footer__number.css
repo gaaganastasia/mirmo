@@ -10,6 +10,7 @@
 
   color: #333233;
   margin: 0;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1999px) {
