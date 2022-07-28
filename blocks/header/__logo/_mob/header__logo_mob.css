@@ -1,0 +1,9 @@
+.header__logo_mob {
+  display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 743px) {
+  .header__logo_mob {
+    display: block;
+  }
+}

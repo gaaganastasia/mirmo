@@ -33,6 +33,8 @@
 @import url(../blocks/header/__call-block/header__call-block.css);
 @import url(../blocks/header/__call-icon/header__call-icon.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo/_desktop/header__logo_desktop.css);
+@import url(../blocks/header/__logo/_mob/header__logo_mob.css);
 @import url(../blocks/header/__number/header__number.css);
 
 @import url(../blocks/main/main.css);
