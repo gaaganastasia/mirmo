@@ -1,0 +1,43 @@
+.offers__text-back {
+  width: 270px;
+  height: 200px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1999px) {
+  .offers__text-back {
+    height: 170px;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+  .offers__text-back {
+    width: 187px;
+    height: 144px;
+  }
+}
+
+@media screen and (min-width: 743px) and (max-width: 1023px) {
+  .offers__text-back {
+    width: 384px;
+    height: 168px;
+  }
+}
+
+@media screen and (min-width: 427px) and (max-width: 743px) {
+  .offers__text-back {
+    width: 256px;
+    height: 138px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 427px) {
+  .offers__text-back {
+    width: 226px;
+    height: 138px;
+  }
+}

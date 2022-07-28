@@ -1,0 +1,12 @@
+.main__icon_money {
+  background-image: url(../../../../images/money-icon.svg);
+}
+
+@media screen and (min-width: 320px) and (max-width: 427px) {
+  .main__icon_money {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+}

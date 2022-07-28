@@ -1,0 +1,51 @@
+.about__photo {
+  width: 748px;
+  height: 392px;
+  object-fit: contain;
+  filter: drop-shadow(4px 8px 16px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (min-width: 1439px) and (max-width: 1999px) {
+  .about__photo {
+    width: 532px;
+    height: 278px;
+  }
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1999px) {
+  .about__photo {
+    width: 450px;
+    height: 234px;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+  .about__photo {
+    width: 423px;
+    height: 220px;
+  }
+}
+
+@media screen and (min-width: 743px) and (max-width: 1023px) {
+  .about__photo {
+    width: 647px;
+    height: 336px;
+    margin: 0 0 60px;
+  }
+}
+
+@media screen and (min-width: 427px) and (max-width: 743px) {
+  .about__photo {
+    width: 358px;
+    height: 186px;
+    margin: 0 0 42px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 427px) {
+  .about__photo {
+    width: 298px;
+    height: 154px;
+    margin: 0 0 42px;
+  }
+}

@@ -1,0 +1,12 @@
+.main__icon_factory {
+  background-image: url(../../../../images/factory-icon.svg);
+}
+
+@media screen and (min-width: 320px) and (max-width: 427px) {
+  .main__icon_factory {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+}

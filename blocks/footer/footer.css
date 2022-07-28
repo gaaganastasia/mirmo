@@ -1,0 +1,36 @@
+.footer {
+  width: 100%;
+  background-color: #F9F9F9;
+  padding: 124px 0;
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1999px) {
+  .footer {
+    padding: 80px 0;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+  .footer {
+    padding: 72px 0;
+  }
+}
+
+
+@media screen and (min-width: 743px) and (max-width: 1023px) {
+  .footer {
+    padding: 78px 0;
+  }
+}
+
+@media screen and (min-width: 427px) and (max-width: 743px) {
+  .footer {
+    padding: 42px 0 60px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 427px) {
+  .footer {
+    padding: 36px 0 66px;
+  }
+}

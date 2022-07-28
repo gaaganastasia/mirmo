@@ -1,0 +1,11 @@
+.about__line {
+  width: 68px;
+  height: 2px;
+  background-color: #D47945;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1999px) {
+  .about__line {
+    width: 48px;
+  }
+}

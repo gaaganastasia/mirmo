@@ -1,0 +1,34 @@
+.main__icon {
+  height: 48px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-width: 44px;
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1999px) {
+  .main__icon {
+    height: 36px;
+    min-width: 33px;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+  .main__icon {
+    height: 42px;
+    min-width: 38px;
+  }
+}
+
+@media screen and (min-width: 743px) and (max-width: 1023px) {
+  .main__icon {
+    height: 36px;
+    min-width: 33px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 743px) {
+  .main__icon {
+    height: 24px;
+    min-width: 22px;
+  }
+}

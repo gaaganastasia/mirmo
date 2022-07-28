@@ -1,0 +1,33 @@
+.benefits__info {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+
+  color: #333233;
+  margin: 0;
+}
+
+@media screen and (min-width: 1439px) and (max-width: 1999px) {
+  .benefits__info {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1439px) {
+  .benefits__info {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .benefits__info {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

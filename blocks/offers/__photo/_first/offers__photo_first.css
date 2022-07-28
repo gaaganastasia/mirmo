@@ -1,0 +1,21 @@
+.offers__photo_first {
+  background-image: url(../../../../images/offer-photo1.png);
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+  .offers__photo_first {
+    background-image: url(../../../../images/offer-photo1-desktop.png);
+  }
+}
+
+@media screen and (min-width: 743px) and (max-width: 1023px) {
+  .offers__photo_first {
+    background-image: url(../../../../images/offer-photo1-tablet.png);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 743px) {
+  .offers__photo_first {
+    background-image: url(../../../../images/offer-photo1-mob.png);
+  }
+}

@@ -1,0 +1,24 @@
+.main__icon-caption {
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #333233;
+  margin: 0;
+}
+
+@media screen and (min-width: 743px) and (max-width: 1999px) {
+  .main__icon-caption {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 743px) {
+  .main__icon-caption {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}

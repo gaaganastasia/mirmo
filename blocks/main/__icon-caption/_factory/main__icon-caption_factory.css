@@ -1,0 +1,8 @@
+@media screen and (min-width: 320px) and (max-width: 427px) {
+  .main__icon-caption_factory {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+}

@@ -1,0 +1,34 @@
+.offers__photo {
+  width: 100%;
+  height: 434px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1999px) {
+  .offers__photo {
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+  .offers__photo {
+    height: 336px;
+  }
+}
+
+@media screen and (min-width: 743px) and (max-width: 1023px) {
+  .offers__photo {
+    height: 286px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 743px) {
+  .offers__photo {
+    height: 206px;
+  }
+}

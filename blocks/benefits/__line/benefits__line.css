@@ -1,0 +1,11 @@
+.benefits__line {
+  width: 68px;
+  height: 2px;
+  background-color: #D47945;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1439px) {
+  .benefits__line {
+    width: 48px;
+  }
+}

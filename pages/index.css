@@ -1,0 +1,83 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/gilroy/stylesheet.css);
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__header/about__header.css);
+@import url(../blocks/about/__info/about__info.css);
+@import url(../blocks/about/__line/about__line.css);
+@import url(../blocks/about/__paragraph/about__paragraph.css);
+@import url(../blocks/about/__paragraph/_bold/about__paragraph_bold.css);
+@import url(../blocks/about/__photo/about__photo.css);
+@import url(../blocks/about/__title/about__title.css);
+
+@import url(../blocks/benefits/benefits.css);
+@import url(../blocks/benefits/__content/benefits__content.css);
+@import url(../blocks/benefits/__items/benefits__items.css);
+@import url(../blocks/benefits/__line/benefits__line.css);
+@import url(../blocks/benefits/__number/benefits__number.css);
+@import url(../blocks/benefits/__title/benefits__title.css);
+@import url(../blocks/benefits/__header/benefits__header.css);
+@import url(../blocks/benefits/__info/benefits__info.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__city/footer__city.css);
+@import url(../blocks/footer/__contact/footer__contact.css);
+@import url(../blocks/footer/__loc/footer__loc.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/footer/__mail/footer__mail.css);
+@import url(../blocks/footer/__number/footer__number.css);
+@import url(../blocks/footer/__street/footer__street.css);
+@import url(../blocks/footer/__content/footer__content.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__call-block/header__call-block.css);
+@import url(../blocks/header/__call-icon/header__call-icon.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__number/header__number.css);
+
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__btn-block/main__btn-block.css);
+@import url(../blocks/main/__btn-caption/main__btn-caption.css);
+@import url(../blocks/main/__btn-icon/main__btn-icon.css);
+@import url(../blocks/main/__btn/main__btn.css);
+@import url(../blocks/main/__icon-block/main__icon-block.css);
+@import url(../blocks/main/__icon-block/_mobile/main__icon-block_mobile.css);
+@import url(../blocks/main/__icon-block/_desktop/main__icon-block_desktop.css);
+@import url(../blocks/main/__icon-caption/main__icon-caption.css);
+@import url(../blocks/main/__icon-caption/_clock/main__icon-caption_clock.css);
+@import url(../blocks/main/__icon-caption/_factory/main__icon-caption_factory.css);
+@import url(../blocks/main/__icon-caption/_money/main__icon-caption_money.css);
+@import url(../blocks/main/__icon/main__icon.css);
+@import url(../blocks/main/__icon/_clock/main__icon_clock.css);
+@import url(../blocks/main/__icon/_factory/main__icon_factory.css);
+@import url(../blocks/main/__icon/_money/main__icon_money.css);
+@import url(../blocks/main/__info/main__info.css);
+@import url(../blocks/main/__photo/main__photo.css);
+@import url(../blocks/main/__price/main__price.css);
+@import url(../blocks/main/__subtitle/main__subtitle.css);
+@import url(../blocks/main/__title-sec/main__title-sec.css);
+@import url(../blocks/main/__title/main__title.css);
+
+@import url(../blocks/offers/offers.css);
+@import url(../blocks/offers/__btn/offers__btn.css);
+@import url(../blocks/offers/__offer/offers__offer.css);
+@import url(../blocks/offers/__photo/offers__photo.css);
+@import url(../blocks/offers/__photo/_first/offers__photo_first.css);
+@import url(../blocks/offers/__photo/_sec/offers__photo_sec.css);
+@import url(../blocks/offers/__photo/_third/offers__photo_third.css);
+@import url(../blocks/offers/__text-back/offers__text-back.css);
+@import url(../blocks/offers/__text/offers__text.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/special/special.css);
+@import url(../blocks/special/__btn/special__btn.css);
+@import url(../blocks/special/__call-block/specail__call-block.css);
+@import url(../blocks/special/__call-icon/special__call-icon.css);
+@import url(../blocks/special/__call-number/special__call-number.css);
+@import url(../blocks/special/__counter-text/special__counter-text.css);
+@import url(../blocks/special/__counter/special__counter.css);
+@import url(../blocks/special/__info-text/special__info-text.css);
+@import url(../blocks/special/__info-text/_colored/special__info-text_colored.css);
+@import url(../blocks/special/__info/special__info.css);
+@import url(../blocks/special/__number/special__number.css);

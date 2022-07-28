@@ -1,0 +1,12 @@
+.main__icon_clock {
+  background-image: url(../../../../images/clock-icon.svg);
+}
+
+@media screen and (min-width: 320px) and (max-width: 427px) {
+  .main__icon_clock {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}
