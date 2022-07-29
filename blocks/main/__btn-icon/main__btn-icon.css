@@ -1,3 +1,39 @@
+@keyframes move {
+  0% {
+    margin: 0 24px 0 36px;
+  }
+  50% {
+    margin: 0 36px 0 24px;
+  }
+  100% {
+    margin: 0 24px 0 36px;
+  }
+}
+
+@keyframes move-tablet {
+  0% {
+    margin: 0 18px 0 30px;
+  }
+  50% {
+    margin: 0 30px 0 18px;
+  }
+  100% {
+    margin: 0 18px 0 30px;
+  }
+}
+
+@keyframes move-mobile {
+  0% {
+    margin: 18px auto 12px;
+  }
+  50% {
+    margin: 12px auto 18px;
+  }
+  100% {
+    margin: 18px auto 12px;
+  }
+}
+
 .main__btn-icon {
   background-image: url(../../../images/main__btn-icon.svg);
   background-repeat: no-repeat;
@@ -5,6 +41,7 @@
   height: 24px;
   width: 24px;
   margin: 0 24px 0 36px;
+  animation: move .8s ease-in-out infinite;
 }
 
 @media screen and (min-width: 743px) and (max-width: 1999px) {
@@ -12,6 +49,7 @@
     height: 20px;
     width: 20px;
     margin: 0 18px 0 30px;
+    animation: move-tablet .8s ease-in-out infinite;
   }
 }
 
@@ -21,5 +59,6 @@
     width: 20px;
     margin: 18px auto 12px;
     transform: matrix(0, 1, 1, 0, 0, 0);
+    animation: move-mobile .8s ease-in-out infinite;
   }
 }

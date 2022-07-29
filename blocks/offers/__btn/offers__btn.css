@@ -26,11 +26,24 @@
   position: absolute;
   bottom: 0;
   left: 70px;
+  cursor: pointer;
+  transition: .3s;
+  text-decoration: none;
+}
+
+.offers__btn:hover {
+  opacity: .8;
 }
 
 @media screen and (min-width: 1279px) and (max-width: 1999px) {
   .offers__btn  {
     left: 32px;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .offers__btn:hover {
+    opacity: .8;
   }
 }
 

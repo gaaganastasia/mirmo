@@ -1,3 +1,8 @@
+.footer__number a {
+  text-decoration: none;
+  color: #333233;
+}
+
 .footer__number {
   font-family: 'Gilroy';
   font-style: normal;
@@ -11,6 +16,23 @@
   color: #333233;
   margin: 0;
   text-decoration: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.footer__number:hover {
+  opacity: .8;
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1999px) {
+  .footer__number {
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .footer__number:hover {
+    opacity: .8;
+  }
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1999px) {

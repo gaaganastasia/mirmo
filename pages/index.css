@@ -83,3 +83,7 @@
 @import url(../blocks/special/__info-text/_colored/special__info-text_colored.css);
 @import url(../blocks/special/__info/special__info.css);
 @import url(../blocks/special/__number/special__number.css);
+
+@import url(../blocks/ticker/ticker.css);
+@import url(../blocks/ticker/__content/ticker__content.css);
+@import url(../blocks/ticker/_mobile/ticker_mobile.css);

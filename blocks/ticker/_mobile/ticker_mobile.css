@@ -1,0 +1,9 @@
+.ticker_mobile {
+  display: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .ticker_mobile {
+    display: block;
+  }
+}

@@ -31,7 +31,7 @@
 @media screen and (min-width: 743px) and (max-width: 1023px) {
   .about {
     width: 624px;
-    margin: 180px auto 0;
+    margin: 180px auto 80px;
     flex-direction: column-reverse;
   }
 }
@@ -39,7 +39,7 @@
 @media screen and (min-width: 427px) and (max-width: 743px) {
   .about {
     width: 348px;
-    margin: 120px auto 0;
+    margin: 120px auto 60px;
     flex-direction: column-reverse;
   }
 }

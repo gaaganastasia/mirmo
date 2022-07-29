@@ -25,7 +25,26 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  cursor: pointer;
+  transition: .3s;
+  text-decoration: none;
 }
+
+.special__btn:hover {
+  opacity: .8;
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1999px) {
+  .special__btn {
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .special__btn:hover {
+    opacity: .8;
+  }
+}
+
 
 @media screen and (min-width: 320px) and (max-width: 743px) {
   .special__btn {

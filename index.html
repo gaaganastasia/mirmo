@@ -5,12 +5,24 @@
   <link rel="stylesheet" href="pages/index.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="format-detection" content="telephone=no">
-  <title>Мягкие окна</title>
 
-  <meta charset="UTF-8">
-  <!--link rel="shortcut icon" href="vector.png" type="image/png">-->
-  <meta name="keywords" content="квиз, мягкие окна" />
+  <title>Мягкие окна</title>
+  <meta name="description" content="Мягкие окна для веранд и беседок от производителя с гарантией 12 месяцев по договору.">
+  <meta name="keywords" content="мягкие окна, окна, установка">
+
+  <link type="image/x-icon" rel="shortcut icon" href="./images/favicon.ico">
+  <link type="image/png" sizes="16x16" rel="icon" href="./images/favicon16x16.png">
+  <link type="image/png" sizes="32x32" rel="icon" href="./images/favicon-32x32.png">
+  <link type="image/png" sizes="96x96" rel="icon" href="./images/favicon-96x96.png">
+  <link type="image/png" sizes="120x120" rel="icon" href="./images/favicon-120x120.png">
+
+  <link type="image/png" sizes="192x192" rel="icon" href="./images/android-icon-192x192.png">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+  <link rel="manifest" href="./vendor/site.webmanifest">
+  <link rel="mask-icon" href="./images/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 
 </head>
 <body>
@@ -19,7 +31,7 @@
       <img src="./images/logo.png" alt="Логотип компании МирМО" class="header__logo">
       <div class="header__call-block">
         <div class="header__call-icon"></div>
-        <p class="header__number">+7 987 630-91-85</p>
+        <a href="tel:+79876309185" class="header__number">+7 987 630-91-85</a>
       </div>
     </header>
     <section class="main">
@@ -37,7 +49,7 @@
           <p class="main__icon-caption">Без переплат</p>
         </div>
         <div class="main__btn-block">
-          <button class="main__btn">Рассчитать стоимость</button>
+          <a href="#showquiz-67694" class="main__btn">Рассчитать стоимость</a>
           <div class="main__btn-icon"></div>
           <p class="main__btn-caption">Пройдите тест и узнайте, сколько стоит Ваш проект</p>
         </div>
@@ -86,9 +98,9 @@
         <p class="special__info-text">Успейте дозвониться за 90 секунд!</p>
         <div class="special__call-block">
           <div class="special__call-icon"></div>
-          <p class="special__call-number">+7 987 630-91-85</p>
+          <a href="tel:+79876309185" class="special__call-number">+7 987 630-91-85</a>
         </div>
-        <button class="special__btn">заказать сейчас</button>
+        <a href="#showquiz-67694" class="special__btn">заказать сейчас</a>
       </div>
       <div class="special__counter">
         <p class="special__counter-text">До конца предложения осталось</p>
@@ -108,32 +120,37 @@
       </div>
       <img src="./images/about-photo.png" alt="Мягкие окна в беседке" class="about__photo">
     </section>
+    <section class="ticker ticker_mobile">
+      <div class="ticker__content"></div>
+    </section>
     <section class="offers">
       <div class="offers__offer">
         <div class="offers__photo offers__photo_first"></div>
         <div class="offers__text-back"></div>
         <div class="offers__text">Рассчитать стоимость онлайн</div>
-        <button class="offers__btn">Рассчитать стоимость</button>
+        <a href="#showquiz-67694" class="offers__btn">Рассчитать стоимость</a>
       </div>
       <div class="offers__offer">
         <div class="offers__photo offers__photo_sec"></div>
         <div class="offers__text-back"></div>
         <div class="offers__text">Оставить заявку <br/>на бесплатный замер</div>
-        <button class="offers__btn">оставить заявку</button>
+        <a href="#showquiz-67694" class="offers__btn">оставить заявку</a>
       </div>
       <div class="offers__offer">
         <div class="offers__photo offers__photo_third"></div>
         <div class="offers__text-back"></div>
         <div class="offers__text">Окно под ключ <br/>всего за 1990₽</div>
-        <button class="offers__btn">заказать сейчас</button>
+        <a href="#showquiz-67694" class="offers__btn">заказать сейчас</a>
       </div>
     </section>
-    <section class="ticker"></section>
+    <section class="ticker">
+      <div class="ticker__content"></div>
+    </section>
     <footer class="footer">
       <div class="footer__content">
         <img src="./images/logo.png" alt="Логотип компании МирМО" class="footer__logo">
         <div class="footer__contact">
-          <p class="footer__number">+7 987 630-91-85</p>
+          <a href="tel:+79876309185" class="footer__number">+7 987 630-91-85</a>
           <p class="footer__mail">mir-mo-ulsk@mail.ru</p>
         </div>
         <div class="footer__loc">
@@ -143,5 +160,8 @@
       </div>
     </footer>
   </div>
+
+  <link rel="stylesheet" href="https://cdn.envybox.io/widget/cbk.css">
+  <script type="text/javascript" src="https://cdn.envybox.io/widget/cbk.js?wcb_code=2ac278a1fc9b7dbde6010c5839d8aa3c" charset="UTF-8" async></script>
 </body>
 </html>

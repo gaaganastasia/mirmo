@@ -25,6 +25,24 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  cursor: pointer;
+  transition: .3s;
+  text-decoration: none;
+}
+
+.main__btn:hover {
+  opacity: .8;
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1999px) {
+  .main__btn {
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .main__btn:hover {
+    opacity: .8;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 743px) {
@@ -35,3 +53,4 @@
     line-height: 24px;
   }
 }
+
