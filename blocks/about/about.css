@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   width: 1825px;
-  margin: 240px auto 0;
+  margin: 240px auto 120px;
   align-items: center;
 }
 
@@ -10,21 +10,21 @@
 @media screen and (min-width: 1439px) and (max-width: 1999px) {
   .about {
     width: 1320px;
-    margin: 180px auto 0;
+    margin: 180px auto 120px;
   }
 }
 
 @media screen and (min-width: 1279px) and (max-width: 1439px) {
   .about {
     width: 1160px;
-    margin: 180px auto 0;
+    margin: 180px auto 120px;
   }
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1279px) {
   .about {
     width: 904px;
-    margin: 180px auto 0;
+    margin: 180px auto 80px;
   }
 }
 
@@ -39,7 +39,7 @@
 @media screen and (min-width: 427px) and (max-width: 743px) {
   .about {
     width: 348px;
-    margin: 120px auto 60px;
+    margin: 120px auto 120px;
     flex-direction: column-reverse;
   }
 }
@@ -47,7 +47,7 @@
 @media screen and (min-width: 320px) and (max-width: 427px) {
   .about {
     width: 288px;
-    margin: 90px auto 0;
+    margin: 90px auto 60px;
     flex-direction: column-reverse;
   }
 }
